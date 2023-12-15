@@ -2,6 +2,7 @@ import React from 'react'
 import Botao from '../Botao'
 import style from './Formulario.module.scss';
 
+
 class Formulario extends React.Component {
  render() {
     return (
@@ -34,7 +35,7 @@ class Formulario extends React.Component {
                 />
 
             </div>
-            <Botao />
+            <Botao>Adicionar</Botao>
         </form>
     )
  }
